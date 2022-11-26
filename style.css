@@ -1,0 +1,219 @@
+ 
+ :root {
+   
+        --primary: #0d6efd;
+        --dark:#21252f;
+        --body:#888;
+         --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+     }
+     .navbar  {
+         box-shadow: var(--box-shadow);
+     }
+      .logo {
+         scale: 0.9;
+         
+      }
+      body {
+        font-family: 'Sora', sans-serif; 
+         line-height: 1.7 ;
+         
+       
+      }
+     
+
+      
+     .fl {
+         /* border-radius: 9px;
+          padding: 11px 16px ; */
+           float: right;
+           transform:translateY(-45px);
+           
+            
+       } 
+ 
+      input {
+         width: 600px;
+         background-image: url('IMAGES/search-regular-24\ \(1\).png');
+          border: none;
+          background-repeat: no-repeat;
+          background-position: 550px;
+          background-color: rgba(196, 196, 196, 0.4);
+           
+          border-radius: 7px;
+           padding: 10px;
+             margin: auto;
+      }
+      
+     
+
+
+      li i {
+         font-size: 33px;
+      }
+      li a {
+         color: var(--dark);
+      }
+
+       
+
+      /* ---- hero--- */
+
+       .hero {
+          /* background-image: url('IMAGES/pexels-karolina-grabowska-5625012.jpg'); */
+          
+           /* background-image:linear-gradient(rgba(59, 72, 124, 0.7),rgba(59, 74, 134, 0.7)), url(IMAGES/pexels-karolina-grabowska-5625012.jpg);  
+           background-position: center;
+            background-size: cover;
+            background-attachment: fixed;  */
+             background-image: url('IMAGES/Rectangle\ 48.png');
+             /* background-color: #FF6805; */
+             height: 100vh;
+              width: 100%;  
+       }
+
+      .SHPIMG {
+ position: absolute; 
+
+ left: 510px;
+top: 211px; 
+
+
+      }
+/* 
+      .HIM {
+          width: 20px;
+      } */
+      .col-lg-6 h1 {
+         font-family:Arial, Helvetica, sans-serif;
+         font-size: 56px;
+         font-weight: 700;
+         line-height: 66px;
+         letter-spacing: 0px;
+         color: #333;
+         
+      }
+
+
+        h1 {
+             font-size: 56px;
+        }
+
+        ---------------
+         section{
+              margin-top: 30px;
+         }
+         .btn {
+            background-color: #FF6805; 
+            color: white;
+         }
+     
+         .fsec {
+             margin-top: 50px;
+              /* background-color: rgba(59, 72, 124, 0.7); */
+               /* background-color: var(--primary); */
+               background-color: #FF6805; 
+               padding: 20px;
+               border-radius: 10px;
+         }
+         .cb{
+             /* background:var(--primary); */
+             background-color: #FF6805; 
+         }
+         .btn-light {
+            
+width: 205px;
+height: 50px;
+
+background: #FFFFFF;
+border-radius: 8px
+         }
+          
+
+         h4 {
+             font-size: 32px;
+         }
+
+         .mt-4 {
+           
+              font-size: 19.5px; 
+         }
+         
+         .round {
+             width: 130px;
+              height: 120px;
+               border-radius: 100%;
+         }
+
+          
+     .card-effect {
+      box-shadow:  none;
+      transform: translateY(5px);
+
+            transform: all 0.35s ease ;
+
+  }
+
+  .card-effect:hover {
+    
+       box-shadow: var(--box-shadow);
+       background-color: white;
+         padding: 15px;
+
+  }
+
+
+   
+
+
+
+  .test-im img {
+     width: 90px;
+      height: 90px;
+       border-radius: 100%;
+  }
+
+  .hh {
+   color: #FF6805;
+  }
+  .test {
+     margin-top: 80px;
+  }
+
+  .footer {
+    /* background-color: rgba(59, 72, 124, 0.7); */
+     /* background-color: var(--primary); */
+     background-color: #FF6805; 
+    padding-top: 30px;
+  
+  }
+  .footer a li  {
+     /* color: white;
+     text-decoration: none; */
+     color: white;
+  }
+
+  .footer a {
+    text-decoration: none;
+  }
+
+
+
+
+  
+
+
+       
+      
+         @media only screen and (max-width: 991px) {
+            
+            input {
+                width: 300px;
+              
+              
+             }
+
+             .HIM {
+                display: none;
+             }
+                   
+          }
